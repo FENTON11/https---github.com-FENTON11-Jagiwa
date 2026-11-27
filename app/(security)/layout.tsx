@@ -1,5 +1,3 @@
-import Navbar from "@/components/nav/DashboardTopnav";
-
 export default async function RootLayout({
   children,
 }: Readonly<{
@@ -7,7 +5,6 @@ export default async function RootLayout({
 }>) {
   return (
     <main className="w-full">
-      <Navbar />
       <div className="px-4">{children}</div>
     </main>
   );
